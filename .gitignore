@@ -12,20 +12,7 @@
 /tmp/*
 !/log/.keep
 !/tmp/.keep
+/config/database.yml
 
-# Ignore pidfiles, but keep the directory.
-/tmp/pids/*
-!/tmp/pids/
-!/tmp/pids/.keep
-
-# Ignore uploaded files in development.
-/storage/*
-!/storage/.keep
-/tmp/storage/*
-!/tmp/storage/
-!/tmp/storage/.keep
-
-/public/assets
-
-# Ignore master key for decrypting credentials and more.
-/config/master.key
+# Ignore Byebug command history file.
+.byebug_history

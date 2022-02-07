@@ -1,24 +1,39 @@
-# README
+Contact List
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Gerencie sua agenda de contatos onde você quiser. Use o Contact List! Projeto criado com o objetivo de ensinar Ruby on Rails a programadores de outras linguagens no curso Ruby on Rails 5 na prática.
+Requisitos Necessários:
 
-Things you may want to cover:
+    Ruby 2.3.0 ou Superior
+    PostgreSQL
+    Rails 5
 
-* Ruby version
+Funcionalidades
 
-* System dependencies
+    Cadastro de usuários
+    Recuperação de senha via email
+    Login de Usuário
+    Gerenciamento de contatos pessoais
+    Customização do perfil
 
-* Configuration
+Para executar o projeto:
 
-* Database creation
+Antes de tudo, tenha certeza de instalar todos os requisitos necessários. Siga os passos desse link para configurar
+Clone em sua máquina
 
-* Database initialization
+git clone git@github.com:brunojppb/rails_contact_list.git
 
-* How to run the test suite
+Instale as dependências
 
-* Services (job queues, cache servers, search engines, etc.)
+cd rails_contact_list
+bundle install
 
-* Deployment instructions
+Configure o Banco de Dados
 
-* ...
+Copie o arquivo config/database.exemple.yml e cole na mesma pasta, renomeando para database.yml e configure seu bando de dados(Por default, estamos usando PostgreSQL). Realize a criação do banco e execute as migrações
+
+rails db:create
+rails db:migrate
+
+Execute a aplicação
+
+rails s
